@@ -8,7 +8,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   sourceRepos:
-    - https://github.com/git67/k8s-argocd-bootstrap.git
+    - https://github.com/pfenntom/toms-k8s-argocd.git
   destinations:
     - namespace: '*'
       server: https://kubernetes.default.svc

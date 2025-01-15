@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/git67/k8s-argocd-bootstrap.git
+    repoURL: https://github.com/pfenntom/toms-k8s-argocd.git
     path: generic/apps/web2
     targetRevision: HEAD
   destination:
